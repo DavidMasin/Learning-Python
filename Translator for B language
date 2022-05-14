@@ -1,0 +1,19 @@
+if __name__ == '__main__':
+    sentence = input("Please enter your sentence: \n")
+    newSentence = ""
+    letter=''
+    for i in sentence:
+        if(i=='a'):
+            newSentence+='aba'
+        elif(i=='i'):
+            newSentence+='ibi'
+        elif(i == 'e'):
+            newSentence += 'ebe'
+        elif (i == 'u'):
+            newSentence += 'ubu'
+        elif (i == 'o'):
+            newSentence += 'obo'
+        else:
+            newSentence+=i
+
+    print(newSentence)
